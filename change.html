@@ -1,0 +1,48 @@
+<!DOCTYPE html><!-- Defines the document as HTML --> 
+<html><!-- Creates Hyper Text Markup Language Element -->
+	<head><!-- Creates an head element -->
+	
+		<title>Change</title>
+		<meta charset="utf-8"><!-- Sets Unicode Character Set -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Sets View-port scale -->
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" /><!-- Link to stylesheet -->
+		<script type="text/javascript" src="javascript.js" charset="utf-8"></script><!-- Link to javascript -->
+	
+	</head><!-- Closes the head element -->	
+	<body><!-- Creates an body element -->
+	
+		<div class="top-bar">
+			
+			<i class="fa fa-bars" onclick="Menu();"></i>
+			<i class="fa fa-cog" onclick="Settings();"></i>
+			
+		</div>
+		
+		
+		<div class="change">
+		
+			<form class="change">
+			
+				<label class="insert-name" for="name">Name: </label><input type="text" name="insert-name" class="insert-name"><br>
+				<label class="insert-description" for="description">Description: </label><input type="text" name="insert-description" class="insert-description"><br>
+				
+				<label class="insert-date" for="date">Date: </label><i class="fa fa-calendar" onclick="Menu();"></i><br>
+				<label class="insert-time" for="time">Time: </label><i class="fa fa-clock" onclick="Menu();"></i><br>
+				
+				<label class="insert-picture" for="picture">Picture: </label><i class="fa fa-camera" onclick="Menu();"></i><br>
+				<label class="insert-alarm" for="alarm">Alarm: </label><i class="fa fa-stopwatch" onclick="Menu();"></i><br>
+				
+				<label class="insert-onend" for="onend">On End: </label><i class="fa fa-calendar-times" onclick="Menu();"></i><br>
+			
+				<br><button class="confirm-button">Confirm</button><button class="cancel-button">Cancel</button>
+				
+			</form>
+			
+		</div>
+		
+	</body><!-- Closes the body element -->	
+</html><!-- Closes the html element -->	
